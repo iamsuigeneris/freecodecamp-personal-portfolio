@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/723a04383b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">iamsuigeneris</a>
+        <div class="toggle" id="toggle" onclick="toggleMenu();" >
+            <div class="hamburger"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="#welcome-section" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>       
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="welcome-section">
+        <div class="textBx">
+            <h1>Hello,I'm <span> Lanre Irewole</span></h1>
+            <h3>A Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content me">
+            <div class="contentBox ">
+                <h3>I am a Fullstack Web Developer</h3>
+                <p>Ability to create and make things work on the web exactly the way i wanted it fascinates me alot.I am currently working as an ATM technician transitioning into web development using Freecodecamp and taking lessons on Youtube.My goal is to earn all the six certifications as Fullstack Web Developer and start working as Web Develoer before the middle of 2021.I want to build web apps that make me feel a sense of satisfaction as doing what i enjoy and give value to my clients.<br><br>
+                This is one of the hardest decisions of my life but i'm determined to make my dreams come true.
+              </p>
+            </div>
+            <div class="w50">
+                <img src="images/new_pix.jpg" class="img">
+
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading ">
+            <h2>My Latest Work</h2>
+            <p>These are the projects successfully completed from freecodecamp</p>
+        </div>
+        <div class="content projects">
+            <div class="workBox">
+                    <a href="https://fcc-lp.netlify.app" target="_blank"><img src="images/project1.png"></a>
+            </div>
+            <div class="workBox">
+                <a href="https://fcc-tb.netlify.app" target="_blank"><img src="images/project2.png"></a>
+            </div>
+            <div class="workBox">
+                <a href="https://fcc-td.netlify.app" target="_blank"><img src="images/project3.png"></a>
+            </div>
+            <div class="workBox">
+                <a href="https://fcc-sf.netlify.app" target="_blank"><img src="images/project4.png"></a>
+            </div>
+        </div>
+        <div class="heading ">
+            <a href="https://github.com/iamsuigeneris" target="_blank" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>You can reach me on any of these social media below</p>
+        </div>
+        <div class="content info">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="text">
+                            <a href="https://twitter.com/irewolelanre" target="_blank"><h3>Twitter</h3></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="text">
+                            <a href="https://github.com/iamsuigeneris" target="_blank"><h3>Github</h3></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-free-code-camp"></i>
+                        </div>
+                        <div class="text">
+                                <a href="http://freecodecamp.org/iamsuigeneris" target="_blank">  <h3>FreeCodeCamp</h3></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-codepen"></i>
+                        </div>
+                        <div class="text">
+                            <a href="http://codepen.io/iamsuigeneris" target="_blank"><h3>Codepen</h3></a>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>WhatsApp</h3>
+                            <p>+234-7087175533</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>irewolelanre@gmail.com</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="formBox">
+                <form>
+                    <h3>Message Info</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="send">    
+                </form>
+            </div>
+        </div>
+    </section>
+        <div class="copyright">
+            <p>Copyright @ 2020</p>
+        </div>
+                    
+     <script src="app.js"></script>           
+</body>
+</html>
